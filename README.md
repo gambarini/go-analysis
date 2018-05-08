@@ -3,7 +3,7 @@ This is an analysis for the code in pkg problem.
 
 Below are the discussion about the problems with solutions.
 
-In the solution pkg the is a code with the full solution
+In the solution pkg has the code with the full solution
 
 ## Overview
 The code looks like an attempt to concurrently calculate the sum of
