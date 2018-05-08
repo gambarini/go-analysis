@@ -6,7 +6,7 @@ import (
 )
 
 func worker(id int, jobs <-chan int, results chan<- int) {
-	log.Printf("worker: %d", id)
+	
 	for j := range jobs {
 
 		go func() {
@@ -30,9 +30,9 @@ func main() {
 	results := make(chan int)
 
 	for i := 1; i <= 1000000000; i++ {
-		//log.Printf("out i: %d", i)
+		
 		go func() {
-			//log.Printf("in i: %d", i)
+			
 			if i%2 == 0 {
 				i += 99
 			}
