@@ -1,9 +1,9 @@
 # Go code analysis
 This is an analysis for the code in pkg problem.
 
-Below are the discussion about the problems with solutions.
+Below are the discussion about the issues found in the code with solutions.
 
-In the solution pkg has the code with the full solution
+The solution pkg has the code with the full solution
 
 ## Overview
 The code looks like an attempt to concurrently calculate the sum of
